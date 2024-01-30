@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/public/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogue</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header class="">
+        <!--Navbar-->
+        <nav class="container mx-auto bg-white border-gray-200 sm:w-screen">
+        <div class="flex items-center justify-between p-4 mx-auto flex-nowrap">
+        <a href="#" class="flex items-center space-x-3">
+            <img src="/assets/icons/Limefiber logo.svg" class="w-28 h-28 bg-inherit" alt="LimeFiber">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+        </a>
+        <div class="flex space-x-3 whitespace-nowrap md:order-2 md:space-x-0">
+            <div class="space-x-2">
+                <button type="button" class="px-6 py-3 text-sm font-normal text-center text-black rounded-lg bg-inherit hover:bg-green-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-300">Log In</button>
+                <button type="button" class="px-6 py-3 text-sm font-normal text-center text-gray-100 rounded-lg bg-green-600/60 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300">Sign Up</button>
+            </div>
+            <button type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+          <ul class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white ">
+            <li>
+              <a href="/index.html" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:active:text-red-500" >Home</a>
+            </li>
+            <li>
+                <a href="#" aria-current="page" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-red-500 md:hover:text-green-700 md:p-0 md:active:text-red-500">Services</a>
+            </li>
+            <li>
+              <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:active:text-red-500">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:active:text-red-500">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+        </nav>
+        <div class="container flex items-center justify-center mx-auto border-b">
+            <p class="mb-4 text-2xl font-medium tracking-wide">LimeFiber Packages</p>
+        </div>
+    </header>
+    <div class="flex justify-center ml-2 mr-2 my-6 whitespace-nowrap text-[18px] opacity-70">
+        <p>Discover the best LimeFiber home Packages!</p>
+    </div>
+    <!--Table section-->
+    <section class="container mx-auto mb-20">
+        <div class="relative mx-2 overflow-auto">
+            <table class="w-full text-xs bg-white table-auto whitespace-nowrap md:text:sm">
+              <thead>
+                <tr class="">
+                  <th class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex items-center justify-center font-normal md:text-lg">
+                            <span>Features</span>
+                        </div>
+                    </th>
+                  <th class="px-4 py-3 font-medium uppercase border-t border-b border-r border-gray-200">
+                    <div class="flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                          </svg>                          
+                        <span>Basic</span>     
+                    </div>
+                  </th>
+                  <th class="relative px-4 py-3 font-medium uppercase border-t border-b border-r border-gray-200">
+                    <div class="absolute top-0 left-0">
+                        <img src="/assets/icons/Group 33678.png" alt="" class="w-full h-3">
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
+                          </svg>                          
+                        <span>Standard</span>     
+                    </div>
+                  </th>
+                  <th class="px-4 py-3 font-medium uppercase border-t border-b border-r border-gray-200">
+                    <div class="flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+                          </svg>                          
+                        <span>Premium</span>     
+                    </div>
+                  </th>
+                  <th class="px-4 py-3 font-medium uppercase border-t border-b border-r border-gray-200">
+                    <div class="flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                          </svg>                          
+                        <span>Pro</span>     
+                    </div>
+                  </th>
+                  <th class="px-4 py-3 font-medium uppercase border-t border-b border-r border-gray-200">
+                    <div class="flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3.5h14.25M3 9h9.75M3 13.5h9.75m4.5-3.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+                        </svg>
+                        <span>Elite</span>     
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="hover:bg-gray-100">
+                    <td class="px-4 md:py-2 md:text-[15px] text-gray-500 border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r text-gray-400 border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100" >
+                    <td class="px-4 py-2 md:text-[15px] border-r text-gray-400 border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r text-gray-400 border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-white hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] text-gray-400 border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-white hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r text-gray-400 border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-white hover:bg-gray-100">
+                    <td class="px-4 py-2 md:text-[15px] border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100">
+                    <td class="px-4 py-2 text-gray-400 md:text-[15px] border-r border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-white hover:bg-gray-100">
+                    <td class="px-4 py-2 border-r md:text-[15px] border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="text-gray-500 bg-gray-50/65 hover:bg-gray-100">
+                    <td class="px-4 py-2 border-r md:text-[15px] text-gray-400 border-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                    <td class="px-3 py-1 border-r border-gray-200">
+                        <div class="flex justify-center">
+                            <div class="custom-table-div">
+                                    <input id="checkbox-all-search" type="checkbox" class="custom-table-checkbox">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="">
+                    <td class=""></td>
+                    <td class="px-3 py-2 border-t border-l border-r">
+                        <div class="flex flex-col items-center justify-center gap-2 mt-3">
+                            <span>Ksh.3000 <span class="text-gray-400">/Month</span></span>
+                            <a href="#" class="text-green-500 hover:text-green-300">Get Connected</a>
+                        </div>
+                    </td>
+                    <td class="px-3 py-2 border-t border-l border-r">
+                        <div class="flex flex-col items-center justify-center gap-2 mt-3">
+                            <span>Ksh.3000 <span class="text-gray-400">/Month</span></span>
+                            <a href="#" class="text-green-500 hover:text-green-300">Get Connected</a>
+                        </div>
+                    </td>
+                    <td class="px-3 py-2 border-t border-l border-r">
+                        <div class="flex flex-col items-center justify-center gap-2 mt-3">
+                            <span>Ksh.3000 <span class="text-gray-400">/Month</span></span>
+                            <a href="#" class="text-green-500 hover:text-green-300">Get Connected</a>
+                        </div>
+                    </td>
+                    <td class="px-3 py-2 border-t border-l border-r">
+                        <div class="flex flex-col items-center justify-center gap-2 mt-3">
+                            <span>Ksh.3000 <span class="text-gray-400">/Month</span></span>
+                            <a href="#" class="text-green-500 hover:text-green-300">Get Connected</a>
+                        </div>
+                    </td>
+                    <td class="px-3 py-2 border-t border-l border-r">
+                        <div class="flex flex-col items-center justify-center gap-2 mt-3">
+                            <span>Ksh.3000 <span class="text-gray-400">/Month</span></span>
+                            <a href="#" class="text-green-500 hover:text-green-300">Get Connected</a>
+                        </div>
+                    </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+    </section>
+    <!--Coverage section-->
+    <div class="flex justify-center mb-8 text-xl font-medium text-black whitespace-nowrap">
+        <p>-LimeFiber Coverage-</p>
+    </div>
+    <section class="container flex flex-col mx-auto mb-10 bg-white md:flex-row">
+        <div class="p-8 m-2 space-y-4 whitespace-normal rounded-md bg-inherit md:w-1/2">
+            <h2 class="text-xl font-medium tracking-wide">Get started today! Only at LimeFibre</h2>
+            <p class="opacity-50">Find out if your area is Home Fiber
+                Ready! To begin click the button 
+                below
+            </p>
+            <div class="flex items-center justify-between mt-5 whitespace-nowrap">
+                <button class=" btn-secondary">Get Started</button>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                    </svg>       
+                </a>
+            </div>
+        </div>
+        <div class="flex items-center justify-center m-2 rounded-lg md:w-1/2 md:rounded-lg">
+            <img src="/assets/img/catalogue1.jpeg" class="object-contain w-full h-full rounded-lg sm:h-[400px] sm:w-[600px] sm:rounded-lg" alt="" loading="eager">
+        </div>
+    </section>
+    <div class="border-main"></div>
+    <!--Sales Section-->
+    <section class="container flex-col mx-auto mt-8 mb-32 space-y-5">
+        <div class="flex justify-between mx-3">
+            <p class="font-normal">Sales on going!</p>
+            <a href="#" class="text-xs text-green-400 duration-1000 hover:text-green-600 hover:-translate-y-1/3">View all</a>
+        </div>
+        <div class="flex flex-col items-center w-full gap-3 sm:flex-row-2 md:flex-row md:flex sm:justify-between">
+            <div class="p-2 ml-4 rounded-md w-100 h-100 hover:shadow-md hover:cursor-pointer ">
+                <p class="inline-block px-2 py-1 text-white rounded-lg bg-red-600/100" >-20%</p>
+                <img src="/assets/img/router.jpeg" class="" alt="Smart TV Box" loading="lazy">
+                <div class="flex flex-col items-start gap-2 ml-3">
+                    <p>Smart TV Box</p>
+                    <p class="text-green-500 hover:text-green-300">Ksh 15,000</p>
+                </div>
+            </div>
+            <div class="p-2 ml-4 rounded-md w-100 h-100 hover:shadow-md hover:cursor-pointer">
+                <p class="px-2 py-1 text-white rounded-lg bg-inherit" >-20%</p>
+                <img src="/assets/img/Vitron-32-Inches-Smart-Android-TV.jpeg" class="object-scale-down h-[225px] w-[210px]" alt="Smart TV" loading="lazy">
+                <div class="flex flex-col items-start gap-2 ml-3">
+                    <p>Smart Tv</p>
+                    <p class="text-green-500 hover:text-green-300">Ksh 25,000</p>
+                </div>
+            </div>
+            <div class="p-2 ml-4 rounded-md w-100 h-100 hover:shadow-md hover:cursor-pointer">
+                <p class="px-2 py-1 text-white rounded-lg bg-inherit" >-20%</p>
+                <img src="/assets/img/camera.jpeg" class="object-scale-down h-[225px] w-[210px]" alt="Smart TV" loading="lazy">
+                <div class="flex flex-col items-start gap-2 ml-3">
+                    <p> CCTV Camera</p>
+                    <p class="text-green-400 hover:text-green-300">Ksh 5,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="border-main"></div>
+    <!--Footer section-->
+    <footer class="container mx-auto my-8 text-sm font-light bg-inherit">
+        <div class="flex flex-wrap justify-between gap-3 mx-3">
+            <ul class="flex space-x-10 text-xs uppercase whitespace-nowrap">
+                <li class="text-gray-500 text-[13px]">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="text-gray-500 text-[13px]">
+                    <a href="#">About</a>
+                </li>
+                <li class="text-gray-500 text-[13px]">
+                    <a href="#">Terms of Service</a>
+                </li>
+            </ul>
+            <div class="flex space-x-14 md:border-gray-500 md:border-b-2 md:text-sm">
+                <a href="#" class="text-gray-600">Subscribe to our newsletters</a>
+                <a href="#" class="text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>         
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-between gap-0">
+            <div class="inline-flex items-center justify-between space-x-3 whitespace-nowrap">
+                <div>
+                    <img src="/assets/icons/Limefiber logo.svg" class="w-28 h-28" alt="">
+                </div>
+                <span> <span class="hover:underline hover:cursor-pointer"> © 2024 LimeFiber.</span>All rights reserved.</span>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-4 h-4" viewBox="0 0 50 50">
+                        <path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 14 11.011719 C 12.904779 11.011719 11.919219 11.339079 11.189453 11.953125 C 10.459687 12.567171 10.011719 13.484511 10.011719 14.466797 C 10.011719 16.333977 11.631285 17.789609 13.691406 17.933594 A 0.98809878 0.98809878 0 0 0 13.695312 17.935547 A 0.98809878 0.98809878 0 0 0 14 17.988281 C 16.27301 17.988281 17.988281 16.396083 17.988281 14.466797 A 0.98809878 0.98809878 0 0 0 17.986328 14.414062 C 17.884577 12.513831 16.190443 11.011719 14 11.011719 z M 14 12.988281 C 15.392231 12.988281 15.94197 13.610038 16.001953 14.492188 C 15.989803 15.348434 15.460091 16.011719 14 16.011719 C 12.614594 16.011719 11.988281 15.302225 11.988281 14.466797 C 11.988281 14.049083 12.140703 13.734298 12.460938 13.464844 C 12.78117 13.19539 13.295221 12.988281 14 12.988281 z M 11 19 A 1.0001 1.0001 0 0 0 10 20 L 10 39 A 1.0001 1.0001 0 0 0 11 40 L 17 40 A 1.0001 1.0001 0 0 0 18 39 L 18 33.134766 L 18 20 A 1.0001 1.0001 0 0 0 17 19 L 11 19 z M 20 19 A 1.0001 1.0001 0 0 0 19 20 L 19 39 A 1.0001 1.0001 0 0 0 20 40 L 26 40 A 1.0001 1.0001 0 0 0 27 39 L 27 29 C 27 28.170333 27.226394 27.345035 27.625 26.804688 C 28.023606 26.264339 28.526466 25.940057 29.482422 25.957031 C 30.468166 25.973981 30.989999 26.311669 31.384766 26.841797 C 31.779532 27.371924 32 28.166667 32 29 L 32 39 A 1.0001 1.0001 0 0 0 33 40 L 39 40 A 1.0001 1.0001 0 0 0 40 39 L 40 28.261719 C 40 25.300181 39.122788 22.95433 37.619141 21.367188 C 36.115493 19.780044 34.024172 19 31.8125 19 C 29.710483 19 28.110853 19.704889 27 20.423828 L 27 20 A 1.0001 1.0001 0 0 0 26 19 L 20 19 z M 12 21 L 16 21 L 16 33.134766 L 16 38 L 12 38 L 12 21 z M 21 21 L 25 21 L 25 22.560547 A 1.0001 1.0001 0 0 0 26.798828 23.162109 C 26.798828 23.162109 28.369194 21 31.8125 21 C 33.565828 21 35.069366 21.582581 36.167969 22.742188 C 37.266572 23.901794 38 25.688257 38 28.261719 L 38 38 L 34 38 L 34 29 C 34 27.833333 33.720468 26.627107 32.990234 25.646484 C 32.260001 24.665862 31.031834 23.983076 29.517578 23.957031 C 27.995534 23.930001 26.747519 24.626988 26.015625 25.619141 C 25.283731 26.611293 25 27.829667 25 29 L 25 38 L 21 38 L 21 21 z"></path>
+                        </svg>
+                    <span class="sr-only">LinkedIn account</span>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-900">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                        </svg>
+                      <span class="sr-only">Facebook page</span>
+                  </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-4 h-4" viewBox="0 0 50 50">
+                            <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                        </svg>
+                    <span class="sr-only">Instagram account</span>
+                    </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                      <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                  </svg>
+                    <span class="sr-only">Twitter page</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

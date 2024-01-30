@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./public/output.css">
+</head>
+<body class="flex flex-col gap-14">
+    <!--Header-->
+    <header class="">
+        <!--Navbar-->
+        <nav class="container mx-auto bg-white border-gray-200 sm:w-screen">
+            <div class="flex items-center justify-between p-4 mx-auto flex-nowrap">
+            <a href="#" class="flex items-center space-x-3">
+                <img src="/assets/icons/Limefiber logo.svg" class="w-28 h-28 bg-inherit" alt="LimeFiber">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+            <div class="flex space-x-3 whitespace-nowrap md:order-2 md:space-x-0">
+                <div class="space-x-2">
+                    <button type="button" class="px-6 py-3 text-sm font-normal text-center text-black rounded-lg bg-inherit hover:bg-green-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-300">Log In</button>
+                    <button type="button" class="px-6 py-3 text-sm font-normal text-center text-gray-100 rounded-lg bg-green-600/60 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300">Sign Up</button>
+                </div>
+                <button type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                  </svg>
+              </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+              <ul class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-white ">
+                <li>
+                  <a href="#" aria-current="page" class="block px-3 py-2 text-red-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:active:text-red-500" >Home</a>
+                </li>
+                <li>
+                    <a href="./src/catalogue.html" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-gray-900 md:hover:text-green-700 md:p-0 md:active:text-red-500">Services</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:active:text-red-500">About Us</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:active:text-red-500">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!--CTA section 1-->
+    <section class="container mx-auto mb-10">
+        <div class="flex flex-col gap-6 m-3 md:flex-row md:space-x-8">
+            <div class="flex flex-col gap-8 mb-4 text-center md:text-start md:w-1/2">
+                <h3 class="text-4xl font-medium leading-relaxed">We Provide Home Fiber Internet, quick and reliable!</h3>
+                <p>Our goal is to provide unlimited internet and offer a simple, stable browsing experience.</p>
+                <div class="flex items-center justify-center mt-5 space-x-14 md:justify-start md:space-x-20 md:w-1/2 whitespace-nowrap">
+                    <button class="px-8 py-3 text-center text-white rounded-lg hover:bg-green-500/60 hover:shadow-md hover:shadow-green-400/20 text-opacity-85 bg-green-600/60 focus:ring-2 focus:ring-green-400 focus:outline-none">Get started</button>
+                    <button class="flex items-center px-3 py-2 space-x-3 rounded-lg hover:ring-2 hover:ring-green-400 hover:text-gray-500">
+                        <div class="p-2 bg-gray-600 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+                            </svg>
+                        </div>
+                            <span class="font-semibold hover:text-gray-600">Learn More</span>     
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="/assets/img/Hero.jpeg" alt="" class="object-contain w-full h-full rounded-lg">
+            </div>
+        </div>
+    </section>
+    <!--Value Proposition Section-->
+    <section class="container mx-auto">
+        <div class="flex flex-col items-center justify-center gap-3 mb-10">
+            <p class="heading-section">Value Proposition</p>
+            <p class="mb-3 text-center heading-subsection">LimeFiber Vision and Goals</p>
+        </div>
+        <div>
+            <!--Goals-->
+            <div class="flex flex-col items-center gap-5 bg-inherit md:flex-row">
+                <!--Unlimited Internet-->
+                <div class="flex flex-col items-center justify-center gap-6 basis-1/3">
+                    <div class="p-3 bg-red-600 rounded-full ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.5" stroke="currentColor" class="w-6 h-6 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
+                        </svg>                  
+                    </div>
+                    <p class="text-2xl font-bold text-center text-gray-600 text-nowrap ">Unlimited Internet</p>
+                    <div class="flex justify-center text-base">
+                        <p class="text-center text-gray-500">Lorem ipsum dolor sit amet <br>
+                            consectetur adipisicing elit. <br>
+                            Autem, cum. At tempore officia <br>
+                            maxime itaque, ut beatae temporibus <br>
+                            enim ipsum odio quibusdam <br> hic debitis
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <button class="px-6 py-2 tracking-wide text-white duration-100 transform rounded-lg text-opacity-85 bg-green-600/60 hover:bg-green-500/60 hover:shadow-md hover:shadow-green-400/20 focus:ring-2 focus:ring-green-400 focus:outline-none">Learn More</button>
+                    </div>
+                </div>
+                <div class="hidden w-[2px] h-20 mx-3 bg-gray-300 rounded-full md:block"></div>
+                <!--Simple and secure-->
+                <div class="flex flex-col items-center justify-center gap-6 basis-1/3">
+                    <div class="p-3 bg-red-600 rounded-full - ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                          </svg>                          
+                    </div>
+                    <p class="text-2xl font-bold text-center text-gray-600 ">Simple and Secure</p>
+                    <div class="flex justify-center text-base">
+                        <p class="text-center text-gray-500">Lorem ipsum dolor sit amet <br>
+                            consectetur adipisicing elit. <br>
+                            Autem, cum. At tempore officia <br>
+                            maxime itaque, ut beatae temporibus <br>
+                            enim ipsum odio quibusdam <br> hic debitis
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <button class="px-6 py-2 tracking-wide text-white rounded-lg hover:bg-green-500/60 hover:shadow-md hover:shadow-green-400/20 focus:ring-2 focus:ring-green-400 focus:outline-none text-opacity-85 bg-green-600/60">Learn More</button>
+                    </div>
+                </div>
+                <div class="hidden w-[2px] h-20 mx-3 bg-gray-300 rounded-full md:block"></div>
+                <!--Customer Support-->
+                <div class="flex flex-col items-center justify-center gap-6 basis-1/3">
+                    <div class="p-3 bg-red-600 rounded-full - ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>               
+                    </div>
+                    <p class="text-2xl font-bold text-center text-gray-600 ">Customer Support</p>
+                    <div class="flex justify-center text-base">
+                        <p class="text-center text-gray-500">Lorem ipsum dolor sit amet <br>
+                            consectetur adipisicing elit. <br>
+                            Autem, cum. At tempore officia <br>
+                            maxime itaque, ut beatae temporibus <br>
+                            enim ipsum odio quibusdam <br> hic debitis
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <button class="px-6 py-2 tracking-wide text-white rounded-lg hover:bg-green-500/60 hover:shadow-md hover:shadow-green-400/20 text-opacity-85 bg-green-600/60 focus:ring-2 focus:ring-green-400 focus:outline-none">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--Coverage Section-->
+    <section class="container flex flex-col mx-auto mb-10 bg-inherit md:flex-row">
+        <div class="p-8 m-2 space-y-4 text-center rounded-md md:text-start bg-inherit md:w-1/2">
+            <p class="font-light text-gray-500 tracking-[6px] uppercase text-sm">Coverage</p>
+            <h2 class="text-xl font-medium tracking-wide">Check your Home Fiber <br> Coverage</h2>
+            <p class="text-gray-500">Find out if your area is Home Fiber <br>
+            Ready! To begin click the button <br>
+            below!</p>
+            <div class="flex items-center justify-center space-x-20 md:justify-start md:space-x-20 md:w-1/2 whitespace-nowrap">
+                <button class="btn-secondary">Get Started</button>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                    </svg>       
+                </a>
+            </div>
+        </div>
+        <div class="bg-inherit m-2 md:h-[200px] md:w-[550px] rounded-lg drop-shadow-md">
+            <img src="/assets/img/medium-shot-friends-spending-time-together.jpg" alt="" class="rounded-lg md:max-w-full md:h-auto" loading="eager">
+        </div>
+    </section>
+    <!--Services and products section-->
+    <section class="relative bg-inherit">
+        <div class="absolute bottom-0 z-10 inset-1">
+            <img src="/assets/icons/Rectangle 2.png" alt="Rectangle" class="ml-[-8%] w-full h-full">
+        </div>
+        <div class="relative z-10 flex flex-col items-center justify-center tracking-wide mb-14">
+            <p class="mt-7 heading-section">Services & Products</p>
+            <p class="mt-12 heading-subsection">LimeFiber</p>
+            <p class="text-center heading-secondary">Services and Packages</p>
+        </div>
+        <div class="relative z-10 flex items-center justify-center mx-2 space-x-8 overflow-x-auto overflow-y-hidden scroll-smooth lg:space-x-16">
+            <div class="hidden py-3 pl-2 pr-2 text-sm text-gray-500 h-52 md:justify-end md:flex bg-inherit whitespace-nowrap w-72 ">
+                <div class="flex items-end justify-end space-x-3 bg-inherit whitespace-nowrap">
+                    <svg class="bottom-0 w-6 h-6 text-gray-300 rounded-full ring-2 ring-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/>
+                      </svg>
+                      <svg class="w-6 h-6 text-gray-800 rounded-full ring-2 ring-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                      </svg> 
+                </div>
+            </div>
+            <div class="py-3 pl-2 pr-2 text-sm text-gray-500 bg-white border rounded-lg shadow-lg border-gray-50 whitespace-nowrap w-72 ">
+                <div class="flex justify-start min-w-full my-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10 p-1 bg-red-700 rounded-lg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                    </svg>
+                </div>
+                <p class="font-semibold tracking-wide uppercase text-md">Basic Package</p>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Quidem repellat, quisquam <br>
+                    laborum dolor deserunt molestiae veritatis <br>
+                    a aspernatur omnis nam minus iusto amet. <br> 
+                </p>
+            </div>
+            <div class="py-3 pl-2 pr-2 text-sm text-gray-500 bg-white border rounded-lg shadow-lg border-gray-50 whitespace-nowrap w-72 ">
+                <div class="flex justify-start min-w-full my-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10 p-1 bg-red-700 rounded-lg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                    </svg>
+                </div>
+                <p class="font-semibold tracking-wide uppercase text-md">Standard Package</p>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Quidem repellat, quisquam <br>
+                    laborum dolor deserunt molestiae veritatis <br>
+                    a aspernatur omnis nam minus iusto amet. <br> 
+                </p>
+            </div>
+            <div class="py-3 pl-2 pr-2 text-sm text-gray-500 bg-white border rounded-lg shadow-lg border-gray-50 whitespace-nowrap w-72 ">
+                <div class="flex justify-start min-w-full my-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10 p-1 bg-red-700 rounded-lg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                    </svg>
+                </div>
+                <p class="font-semibold tracking-wide uppercase text-md">Premium Package</p>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Quidem repellat, quisquam <br>
+                    laborum dolor deserunt molestiae veritatis <br>
+                    a aspernatur omnis nam minus iusto amet. <br> 
+                </p>
+            </div>
+            <div class="py-3 pl-2 pr-2 text-sm text-gray-500 bg-white border rounded-lg shadow-lg border-gray-50 whitespace-nowrap w-72 ">
+                <div class="flex justify-start min-w-full my-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10 p-1 bg-red-700 rounded-lg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                    </svg>
+                </div>
+                <p class="font-semibold tracking-wide uppercase text-md">Pro Package</p>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Quidem repellat, quisquam <br>
+                    laborum dolor deserunt molestiae veritatis <br>
+                    a aspernatur omnis nam minus iusto amet. <br> 
+                </p>
+            </div>
+        </div>
+        <div class="relative z-10 flex items-center justify-center my-8 space-x-1 text-green-300 whitespace-nowrap hover:underline">
+            <a href="#" class="text-green-600/70 text-opacity-30 hover:text-green-900">See More Services and Products</a>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.0" stroke="green" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>   
+        </div>
+    </section>
+    <!--Testimonials section-->
+    <section class="container relative mx-auto bg-white">
+        <div class="flex flex-col items-center justify-center mb-5 space-y-4">
+            <p class="heading-section">Testimonials</p>
+            <p class="text-center heading-secondary">What our customers are saying about us!</p>
+        </div>
+        <div class="flex flex-col items-center md:flex-row md:flex-wrap md:mx-10">
+            <!--Test 1--> 
+            <div class="flex mt-8 text-xs rounded-sm md:text-sm shrink-0 md:w-1/2 lg:w-1/3 xl:w-1/4 xl:space-x-4">
+                <div>
+                    <img src="/assets/img/Smile.jpeg"  alt="" class="w-12 h-12 rounded-lg">
+                </div>
+                <div class="flex-col space-y-5">
+                    <p class="text-gray-500">Lorem ipsum dolor sit, amet <br>
+                        consectetur adipisicing elit. <br>
+                        Earum aliquam atque facere alias <br> beatae dolorum, sapiente minima qui
+                        <br>
+                        molestiae blanditiis aperiam.
+                    </p>
+                    <p class="text-xs font-semibold text-gray-300 uppercase">User_12345678</p>
+                </div>
+            </div>
+            <!--Test 2-->
+            <div class="flex mt-8 space-x-2 text-xs md:text-sm shrink-0 md:w-1/2 lg:w-1/3 xl:w-1/4 xl:space-x-3">
+                <div>
+                    <img src="/assets/img/Smile.jpeg" alt="" class="w-12 h-12 rounded-lg">
+                </div>
+                <!--Test 1-->
+                <div class="flex-col space-y-5">
+                    <p class="text-gray-500">Lorem ipsum dolor sit, amet <br>
+                        consectetur adipisicing elit. <br>
+                        Earum aliquam atque facere alias <br> beatae dolorum, sapiente minima qui
+                        <br>
+                        molestiae blanditiis aperiam.
+                    </p>
+                    <p class="text-xs font-semibold text-gray-300 uppercase">User_12345678</p>
+                </div>
+            </div>
+            <!--Test 3-->
+            <div class="flex mt-8 space-x-2 text-xs md:text-sm shrink-0 md:w-1/2 lg:w-1/3 xl:w-1/4 xl:space-x-3">
+                <div>
+                    <img src="/assets/img/Smile.jpeg" alt="" class="w-12 h-12 rounded-lg">
+                </div>
+                <!--Test 1-->
+                <div class="flex-col space-y-5">
+                    <p class="text-gray-500">Lorem ipsum dolor sit, amet <br>
+                        consectetur adipisicing elit. <br>
+                        Earum aliquam atque facere alias <br> beatae dolorum, sapiente minima qui
+                        <br>
+                        molestiae blanditiis aperiam.
+                    </p>
+                    <p class="text-xs font-semibold text-gray-300 uppercase">User_12345678</p>
+                </div>
+            </div>
+            <!--Test 4-->
+            <div class="flex mt-8 space-x-2 text-xs md:text-sm shrink-0 md:w-1/2 lg:w-1/3 xl:w-1/4 xl:space-x-3">
+                <div>
+                    <img src="/assets/img/Smile.jpeg" alt="" class="w-12 h-12 rounded-lg">
+                </div>
+                <!--Test 1-->
+                <div class="flex-col space-y-5">
+                    <p class="text-gray-500">Lorem ipsum dolor sit, amet <br>
+                        consectetur adipisicing elit. <br>
+                        Earum aliquam atque facere alias <br> beatae dolorum, sapiente minima qui
+                        <br>
+                        molestiae blanditiis aperiam.
+                    </p>
+                    <p class="text-xs font-semibold text-gray-300 uppercase">User_12345678</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!--Blog and News section-->
+    <section class="relative flex items-center justify-center w-full mt-8 bg-green-100/60">
+        <div class="flex">
+            <div class="grid w-full gap-4 m-6 bg-inherit">
+                <p class="heading-section" >Blog & News</p>
+                <h2 class="heading-subsection">News</h2>
+                <p class="text-gray-600">LimeFiber expands operations in Northern <br>
+                    Kenya, western Kenya and more!</p>
+                <div class="flex items-start whitespace-nowrap">
+                    <button class="py-3 text-xs tracking-wider text-gray-100 rounded-lg bg-green-600/50 px-7 text-opacity-95 hover:shadow-md hover:shadow-green-400 focus:outline-none focus:ring-2 focus:ring-green-400">Learn More</button>
+                </div>    
+            </div>
+        </div>
+        <div class="flex pt-5 mb-4 overflow-x-auto rounded-lg bg-inherit">
+            <div class="relative image-container">
+                <img class="h-full w-[400px]" src="/assets/img/Lp2.jpg" alt="">
+                <div class="absolute z-10 p-3 text-center bg-white bg-opacity-65 bottom-6 left-6">
+                    <p class="mb-3 text-xs tracking-wide">01 ---- Expansion plans</p>
+                    <p class="font-sans font-medium text-opacity-45">LimeFiber Ke</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="h-[450px] w-[400px]" src="/assets/img/News2.jpeg" alt="">
+                <div class="flex items-center justify-center mt-3 space-x-3">
+                    <button class="w-2 h-2 bg-red-500 rounded-full ring-4 ring-red-400 focus:ring-green-400" type="button"></button>
+                    <button class="w-2 h-2 bg-gray-300 rounded-full hover:ring-3" type="button"></button>
+                    <button class="w-2 h-2 bg-gray-300 rounded-full hover:ring-3" type="button"></button>
+                    <button class="w-2 h-2 bg-gray-300 rounded-full hover:ring-3" type="button"></button>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="h-[400px] w-[400px]" src="/assets/img/Smile.jpeg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="h-[400px] w-[400px]" src="/assets/img/News3.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--Support and contact section-->
+    <section class="container flex flex-col mx-auto bg-inherit md:flex-row">
+        <div class="flex items-center justify-center m-3 rounded-md bg-inherit md:w-1/2">
+            <img src="/assets/img/Smile.jpeg" class="w-full h-auto md:w-auto md:h-auto" alt="">
+        </div>
+        <div class="flex-col p-4 m-2 space-y-6 text-center rounded-md md:text-start bg-inherit md:w-1/2">
+            <p class="heading-section">Support & Contact</p>
+            <div class="space-y-2">
+                <h2 class="heading-subsection">Contact LimeFiber</h2>
+                <p class="heading-secondary">The best Home Fiber service</p>
+            </div>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque dui <br>
+            mi bibendum eu erat id, ultricies semper metus. Nunc dapipus <br>
+            laroreet dolor nec imperdiet.
+            </p>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque dui <br>
+                mi bibendum eu erat id, ultricies semper metus. Nunc dapipus <br>
+                laroreet dolor nec imperdiet.
+            </p>
+            <div class="flex items-center justify-center w-full mt-10 md:justify-start whitespace-nowrap">
+                <button class="px-8 py-4 text-xs font-semibold tracking-wide text-white uppercase rounded-lg bg-green-600/60 hover:bg-green-400/40 hover:shadow-md hover:shadow-green-400/20 text-opacity-90 focus:ring-2 focus:ring-green-400 focus:outline-none">Explore More</button>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="container mx-auto my-8 text-sm font-light bg-inherit">
+        <div class="flex flex-wrap justify-between gap-3 mx-3">
+            <ul class="flex space-x-10 text-xs uppercase whitespace-nowrap">
+                <li class="text-gray-500 text-[13px]">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="text-gray-500 text-[13px]">
+                    <a href="#">About</a>
+                </li>
+                <li class="text-gray-500 text-[13px]">
+                    <a href="#">Terms of Service</a>
+                </li>
+            </ul>
+            <div class="flex space-x-14 md:border-gray-500 md:border-b-2 md:text-sm">
+                <a href="#" class="text-gray-600">Subscribe to our newsletters</a>
+                <a href="#" class="text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>         
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-between gap-0">
+            <div class="inline-flex items-center justify-between space-x-3 whitespace-nowrap">
+                <div>
+                    <img src="/assets/icons/Limefiber logo.svg" class="w-28 h-28" alt="">
+                </div>
+                <span> <span class="hover:underline hover:cursor-pointer"> © 2024 LimeFiber.</span>All rights reserved.</span>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-4 h-4" viewBox="0 0 50 50">
+                        <path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 14 11.011719 C 12.904779 11.011719 11.919219 11.339079 11.189453 11.953125 C 10.459687 12.567171 10.011719 13.484511 10.011719 14.466797 C 10.011719 16.333977 11.631285 17.789609 13.691406 17.933594 A 0.98809878 0.98809878 0 0 0 13.695312 17.935547 A 0.98809878 0.98809878 0 0 0 14 17.988281 C 16.27301 17.988281 17.988281 16.396083 17.988281 14.466797 A 0.98809878 0.98809878 0 0 0 17.986328 14.414062 C 17.884577 12.513831 16.190443 11.011719 14 11.011719 z M 14 12.988281 C 15.392231 12.988281 15.94197 13.610038 16.001953 14.492188 C 15.989803 15.348434 15.460091 16.011719 14 16.011719 C 12.614594 16.011719 11.988281 15.302225 11.988281 14.466797 C 11.988281 14.049083 12.140703 13.734298 12.460938 13.464844 C 12.78117 13.19539 13.295221 12.988281 14 12.988281 z M 11 19 A 1.0001 1.0001 0 0 0 10 20 L 10 39 A 1.0001 1.0001 0 0 0 11 40 L 17 40 A 1.0001 1.0001 0 0 0 18 39 L 18 33.134766 L 18 20 A 1.0001 1.0001 0 0 0 17 19 L 11 19 z M 20 19 A 1.0001 1.0001 0 0 0 19 20 L 19 39 A 1.0001 1.0001 0 0 0 20 40 L 26 40 A 1.0001 1.0001 0 0 0 27 39 L 27 29 C 27 28.170333 27.226394 27.345035 27.625 26.804688 C 28.023606 26.264339 28.526466 25.940057 29.482422 25.957031 C 30.468166 25.973981 30.989999 26.311669 31.384766 26.841797 C 31.779532 27.371924 32 28.166667 32 29 L 32 39 A 1.0001 1.0001 0 0 0 33 40 L 39 40 A 1.0001 1.0001 0 0 0 40 39 L 40 28.261719 C 40 25.300181 39.122788 22.95433 37.619141 21.367188 C 36.115493 19.780044 34.024172 19 31.8125 19 C 29.710483 19 28.110853 19.704889 27 20.423828 L 27 20 A 1.0001 1.0001 0 0 0 26 19 L 20 19 z M 12 21 L 16 21 L 16 33.134766 L 16 38 L 12 38 L 12 21 z M 21 21 L 25 21 L 25 22.560547 A 1.0001 1.0001 0 0 0 26.798828 23.162109 C 26.798828 23.162109 28.369194 21 31.8125 21 C 33.565828 21 35.069366 21.582581 36.167969 22.742188 C 37.266572 23.901794 38 25.688257 38 28.261719 L 38 38 L 34 38 L 34 29 C 34 27.833333 33.720468 26.627107 32.990234 25.646484 C 32.260001 24.665862 31.031834 23.983076 29.517578 23.957031 C 27.995534 23.930001 26.747519 24.626988 26.015625 25.619141 C 25.283731 26.611293 25 27.829667 25 29 L 25 38 L 21 38 L 21 21 z"></path>
+                        </svg>
+                    <span class="sr-only">LinkedIn account</span>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-900">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                        </svg>
+                      <span class="sr-only">Facebook page</span>
+                  </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-4 h-4" viewBox="0 0 50 50">
+                            <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                        </svg>
+                    <span class="sr-only">Instagram account</span>
+                    </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                      <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                  </svg>
+                    <span class="sr-only">Twitter page</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
